@@ -11,7 +11,6 @@
 # This ensure that the package is loaded
 if(!require(cmprsk))
   { stop("the package 'cmprsk' is required, please install it. \nSee help(install.packages).") }
-  
 factor2ind <- function(x, baseline)
 {
 # Given a factor variable x, create an indicator matrix of dimension 
