@@ -25,7 +25,6 @@
 #             	 subset, na.action = na.omit, level, 
 #                xlab = "Time", ylab = "Probability", 
 #                col, lty, lwd, digits = 4)
-# 
 # Arguments:
 # 
 # ftime = failure time variable.
