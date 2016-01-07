@@ -86,7 +86,6 @@ shinyUI(navbarPage("CompRiskApp",
                               )
                             )     
                    ), 
-                   
                    navbarMenu("Competing Risk Analysis",
                               tabPanel("Estimate CIFs",                            
                                        sidebarLayout(
