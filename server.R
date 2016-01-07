@@ -86,7 +86,6 @@ shinyServer(function(input, output, session) {
     }
   })
   
-  
   output$ciftest <- renderPrint({
     if (input$goButton == 0){validate(need(input$goButton != 0, "Select variables and press the go button.")) 
     }else{ 
